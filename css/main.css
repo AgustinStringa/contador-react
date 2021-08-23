@@ -1,0 +1,50 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-color: #333;
+}
+h2 {
+  color: aquamarine;
+  font-weight: bold;
+
+  font-size: 2rem;
+  border: 5px dashed rgb(17, 94, 94);
+  padding: 1rem;
+}
+
+button {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  background-color: aquamarine;
+  border-radius: 100%;
+  padding: 1rem;
+  /* border: 1px solid #ccc; */
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 1px black;
+}
+
+button:hover {
+  background-color: rgb(20, 156, 111);
+}
+
+/***Clases para el texto***/
+.menor {
+  color: rgb(189, 28, 28);
+  font-weight: bold;
+}
+
+.mayor {
+  color: rgb(23, 190, 79);
+  font-weight: bold;
+}
